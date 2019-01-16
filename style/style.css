@@ -1,0 +1,42 @@
+/* GERAL */
+
+body {
+    background-color: #F2EDC3;
+    background-image: url('./assets/pattern.png') top left;
+    background-repeat: repeat;
+}
+
+a:link{ 
+text-decoration:none; 
+color: none;
+} 
+
+#elementos{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding: 0%;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+
+.criar-conta{
+    background-color: 	#EA7932;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.entrar{
+    background-color: 	#D1CF3D;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: none;
+    border-radius: 3px;
+    
+}
