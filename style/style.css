@@ -218,3 +218,17 @@ form input{
     flex-direction: row;
     padding-top: 20px;  
 }
+
+.tarefas, .subtarefas{
+    list-style: none;
+}
+
+.tarefas__adicionar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tarefas__deletar{
+    display: flex;
+    justify-content: flex-end;
+}
