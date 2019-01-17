@@ -8,35 +8,112 @@ body {
 
 a:link{ 
 text-decoration:none; 
-color: none;
 } 
+
+/* Página abertura */
 
 #elementos{
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
-    padding: 0%;
+    padding: 20px;
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
+}
 
+#seta{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .criar-conta{
     background-color: 	#EA7932;
     color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10px 30px;
     border-radius: 3px;
     border-style: none;
+    text-align: center;    
 }
 
 .entrar{
     background-color: 	#D1CF3D;
     color: black;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10px 45px;
     border-style: none;
     border-radius: 3px;
+    
+}
+
+/* Página cadastro */
+
+.logo{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 0%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.dados{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding: 5%;
+    margin: 5% auto;
+    margin-top: 2%;
+    width: 20%;
+    text-align: center;
+    background-color: #FAF4C2;
+}
+
+h1{
+    color: #45341A;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+form input{
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 5px;
+}
+
+#criar-conta{
+    background-color: 	#EA7932;
+    color: white;
+    padding: 10px 45px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border-style: none;
+    text-align: center;
+    align-items: baseline;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#entrar{
+    background-color: 	#D1CF3D;
+    color: black;
+    padding: 10px 45px;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 3px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
     
 }
