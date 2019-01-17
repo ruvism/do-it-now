@@ -1,9 +1,11 @@
 /* GERAL */
 
-body {
+body{
+    margin: 0;
+}
+
+.telas-iniciais{
     background-color: #F2EDC3;
-    background-image: url('./assets/pattern.png') top left;
-    background-repeat: repeat;
 }
 
 a:link{ 
@@ -67,6 +69,12 @@ text-decoration:none;
     width: 20%;
     text-align: center;
     background-color: #FAF4C2;
+    position: relative;
+}
+.dados__voltar{
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 h1{
@@ -75,12 +83,15 @@ h1{
     font-family: sans-serif;
 }
 
+
 form{
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
 
 form input{
     padding-left: 10px;
@@ -115,5 +126,30 @@ form input{
     display: flex;
     justify-content: center;
     position: relative;
-    
+}
+
+/* Listas */
+
+.header{
+    background-color: #574436;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+}
+
+.header__usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    margin: 20px auto;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    margin: 15px auto; 
 }
