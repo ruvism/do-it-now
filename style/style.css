@@ -232,3 +232,14 @@ form input{
     display: flex;
     justify-content: flex-end;
 }
+
+/* Criar listas */
+
+.listas__criar{
+    height: 200px;
+    padding-top:100px; 
+}
+
+.listas__prontas{
+    padding-top: 300px;
+}
