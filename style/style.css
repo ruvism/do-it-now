@@ -44,7 +44,7 @@ text-decoration:none;
 
 .entrar{
     background-color: 	#D1CF3D;
-    color: black;
+    color:#45341A;
     padding: 10px 45px;
     border-style: none;
     border-radius: 3px;
@@ -88,7 +88,7 @@ h1{
 }
 
 
-form{
+.form__cadastro, .form__login{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -97,10 +97,10 @@ form{
 }
 
 
-form input{
+.form__cadastro input, .form__login input, .listas__nova input{
     padding-left: 10px;
-    padding-bottom: 2px;
-    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     margin-top: 5px;
 }
 
@@ -237,9 +237,55 @@ form input{
 
 .listas__criar{
     height: 200px;
-    padding-top:100px; 
+    width: 500px;
+    position: relative;
+}
+
+.listas__nova{
+    padding-top: 2px;
+    position: absolute;
 }
 
 .listas__prontas{
     padding-top: 300px;
+}
+
+.listas__nome, .listas__adicionar-tarefa{
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-color: #EA7932;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 0.5px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    color: #45341A;
+}
+
+.listas__botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;  
+    padding: 2px;  
+}
+
+.listas__btn-criar{
+    background-color: 	#EA7932;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border-style: none;
+    text-align: center;   
+}
+
+.listas__btn-cancelar{
+    background-color: 	#D1CF3D;
+    color:#45341A;
+    padding: 10px 45px;
+    margin-right: 5px;
+    border-style: none;
+    border-radius: 3px;
 }
