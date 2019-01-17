@@ -11,4 +11,4 @@ entrar.addEventListener('click', function(event){
     } else{
       window.location.href= "listas.html";  
     }
-})
+}); 
