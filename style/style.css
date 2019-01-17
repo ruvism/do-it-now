@@ -24,7 +24,7 @@ text-decoration:none;
     justify-content: center;
     flex-direction: column;
     display: flex;
-    /* padding: 40 px; */
+    padding: 50px;
     margin: 0 auto;
     text-align: center;
     margin-top: 60px;
@@ -37,6 +37,12 @@ text-decoration:none;
 
 .id__visual{
     width: 50px;
+    padding: 50px;
+}
+
+.botoes-index{
+    padding: 30px;
+    margin-top: 20px;
 }
 
 /* Página cadastro */
@@ -58,7 +64,7 @@ text-decoration:none;
     padding: 5%;
     margin: 5% auto;
     margin-top: 2%;
-    width: 300px;
+    width: 400px;
     text-align: center;
     background-color: #FAF4C2;
     position: relative;
