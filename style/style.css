@@ -193,7 +193,7 @@ h1{
     border-style: solid;
     border-width: 1px;
     border-radius: 2px;
-    position: relative;
+    position: absolut;
 }
 
 .inicio{
@@ -224,17 +224,28 @@ h1{
 
 .tarefas, .subtarefas{
     list-style: none;
+    position: relative;
 }
 
-.tarefas__adicionar{
+/* .tarefas__adicionar, .tarefas__deletar, .subtarefas__deletar */
+
+/* .tarefas__adicionar{
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .tarefas__deletar{
     display: flex;
     justify-content: flex-end;
+    position: absolute;
 }
+
+.subtarefas__deletar{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+} */
 
 /* Criar listas */
 
@@ -267,18 +278,7 @@ h1{
     color: #45341A;
 }
 
-.listas__adicionar-tarefa{
-    position: relative;
-}
-
-.listas__tarefas__adicionar{
-    position: absolute;
-    top: 40px; 
-    right: 5px;
-    z-index: auto;
-}
-
-.tarefa__input__adicionar, .subtarefa__input__adicionar{
+.tarefas__input__adicionar, .subtarefas__input__adicionar{
     width: 400px;
     color: #45341A;
     display: flex;
@@ -290,21 +290,15 @@ h1{
     border-width: 0.5px;
     padding-top: 10px;
     padding-bottom: 10px; 
+    padding-left: 10px;
     margin: 5px;
-    position: relative;
 }
-
-.tarefas__adicionar{
+/* Não alterar esse */
+.criar__tarefas{
     position: absolute;
-    top: 130px; 
-    right: 60px;
-    z-index: auto;  
-}
-.subtarefas__adicionar{
-    position: absolute;
-    top: 330px; 
-    right: 20px;
-    z-index: auto;  
+    top: 30px; 
+    right: 5px;
+    z-index: auto;
 }
 
 .listas__botoes{
@@ -334,3 +328,4 @@ h1{
     border-style: none;
     border-radius: 3px;
 }
+
