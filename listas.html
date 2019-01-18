@@ -5,8 +5,7 @@
   <meta charset="utf-8" />
   <title>do it now</title>
    
-    <!-- <link href="https://fonts.googleapis.com/css?family=Coiny|Monteserrat" rel="stylesheet"> -->
-    <link rel="stylesheet" href="./style/style.css">
+     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
 <header class="header">
@@ -29,60 +28,90 @@
             Lista 1 </div>
             <div class="final">
             <input type="image" src="assets/icone_editar.png" id="lista__editar">
-            <input type="image" src="assets/icone_deletar_lista.png" id="lista__deletar">  
-            </div></li><hr>
-            
-            <div class="inicio">
-            <li class="linha__2">
-            <img src="assets/icone_lista.png" id="lista__icone">  
-             Lista 2</div>
-             <div class="final">
-                <input type="image" src="assets/icone_editar.png" id="lista__editar">
-                <input type="image" src="assets/icone_deletar_lista.png" id="lista__deletar"> </div>
-              <div>
-              <ul class="tarefas">
-                <li><input type="text" id="tarefa__adicionar" class="tarefas__input__adicionar" placeholder="Adicionar tarefa"><input type="image" src="assets/botao_adicionar.png" class="tarefas__adicionar"></li>
-                <li><input type="checkbox">Tarefa 1 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
-                <hr>
-                <ul class="subtarefas">
-                  <li><input type="checkbox">Subtarefa 1 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
-                  <li><input type="checkbox">Subtarefa 2 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
-                  <li><input type="checkbox">Subtarefa 3 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
-                  <li><input type="text" id="subtarefa__adicionar" class="subtarefas__input__adicionar" placeholder="Adicionar subtarefa"><input type="image" class="subtarefas__adicionar" src="assets/botao_adicionar.png"></li>
-                  <hr>  
+            <input type="image" src="assets/icone_deletar_lista.png" id="lista__deletar"> </div></li>
+            <div id="linha__nova__tarefa">
+            <li><input type="text" id="tarefa__adicionar" class="tarefas__input__adicionar" placeholder="Adicionar tarefa"><input type="image" src="assets/botao_adicionar.png" class="tarefas__adicionar" id="botao__mais">
+            </div></li>
+            <div id="criacao__tarefa>">
+                <ul id="criacao__tarefa__lista" class="tarefas">
                 </ul>
-              </ul>
-              
-            </div></li><hr>
-            <div>
-              <ul class="tarefas">
-              </li>
-              <li><input type="text" id="tarefa__adicionar" class="tarefas__input__adicionar" placeholder="Adicionar tarefa"><input type="image" class="tarefas__adicionar" src="assets/botao_adicionar.png"></li>
-              <li><input type="checkbox">Tarefa 2 <input type="image" class="tarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
-              <hr>
-            </ul>
+              </div>
             
-          </div></li><hr>
-          <div>
-            <ul class="tarefas">
-                <li><input type="text" id="tarefa__adicionar" class="tarefas__input__adicionar" placeholder="Adicionar tarefa"><input type="image" src="assets/botao_adicionar.png" class="tarefas__adicionar"></li>
+            <hr width=100% class="borda-interna">
+
+            <div class="inicio">
+              <li class="linha__2">
+                <img src="assets/icone_lista.png" id="lista__icone">  
+                Lista 2</div>
+                <div class="final">
+                  <input type="image" src="assets/icone_editar.png" id="lista__editar">
+                  <input type="image" src="assets/icone_deletar_lista.png" id="lista__deletar"> </div></li>
+                  <div id="linha__nova__tarefa">
+                    <li><input type="text" id="tarefa__adicionar" class="tarefas__input__adicionar" placeholder="Adicionar tarefa"><input type="image" class="tarefas__adicionar" src="assets/botao_adicionar.png">
+                    </div></li><hr>
+                    
+                    <div>
+                      <ul class="tarefas">
+                        <li><input type="checkbox">Tarefa 1 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
+                          <hr>
+                        <li><input type="text" id="subtarefa__adicionar" class="subtarefas__input__adicionar" placeholder="Adicionar subtarefa"><input type="image" class="subtarefas__adicionar" src="assets/botao_adicionar.png"></li>
+                        <ul class="subtarefas">
+                          <li><input type="checkbox">Subtarefa 1 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
+                          <li><input type="checkbox">Subtarefa 2 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
+                          <li><input type="checkbox">Subtarefa 3 <input type="image" class="subtarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
+                          <div id="criacao__subtarefa>">
+                              <ul id="criacao__subtarefa__lista" class="subtarefas">
+                              </ul>
+                            </div>
+                          <hr>  
+                        </ul>
+                      </ul>
+                      
+                    </div></li><hr>
+                    <div>
+                      <ul class="tarefas">
+                      </li>
+                      <li><input type="checkbox">Tarefa 2 <input type="image" class="tarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
+                      <hr>
+                    </ul>
+                    
+                  </div></li><hr>
+                  <div>
+                    <ul class="tarefas">
                       <li><input type="checkbox">Tarefa 3 <input type="image" class="tarefas__deletar" src="assets/icone_deletar_tarefa-subtarefa.png" ></li>
                       <hr>
                     </ul>
-                 </div></li><hr>
+                  </div></li>
+                  <div id="criacao__tarefa>">
+                      <ul id="criacao__tarefa__lista" class="tarefas">
+                      </ul>
+                    </div>
+                  
+                  <hr width=100% class="borda-interna">
+                  
+                  <div class="inicio"> 
+                    <li class="linha__3">
+                      <img src="assets/icone_lista.png" id="lista__icone">  
+                      Lista 3 </div>
+                      <div class="final">
+                        <input type="image" src="assets/icone_editar.png" id="lista__editar">
+                        <input type="image" src="assets/icone_deletar_lista.png" id="lista__deletar"> 
+                      </div></li>
+                      <div id="linha__nova__tarefa">
+                        <li><input type="text" id="tarefa__adicionar" class="tarefas__input__adicionar" placeholder="Adicionar tarefa"><input type="image" src="assets/botao_adicionar.png" class="tarefas__adicionar">
+                      </div></li><hr>
+      
+                        <!-- espaco para criacao de nova tarefa       -->
+           <div id="criacao__tarefa>">
+              <ul id="criacao__tarefa__lista" class="tarefas">
+
+              </ul>
+            </div>
             
-            <div class="inicio">  
-            <li class="linha__3">
-            <img src="assets/icone_lista.png" id="lista__icone">  
-             Lista 3 </div>
-             <div class="final">
-                <input type="image" src="assets/icone_editar.png" id="lista__editar">
-                <input type="image" src="assets/icone_deletar_lista.png" id="lista__deletar"> 
-            </div></li>
           </ul>
         </div>
 
 
-
+<script src="scripts/listas.js"></script>
 </body>
 </html>

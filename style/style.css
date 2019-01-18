@@ -128,6 +128,10 @@ h1{
 
 /* Listas */
 
+.borda-interna{
+    border-color: aqua;
+}
+
 .header{
     background-color: #574436;
     display: flex;
@@ -219,12 +223,16 @@ h1{
     flex-direction: row;
     align-items: initial;
     justify-content: baseline;
-    padding-top: 10px;  
-}
+    padding-top: 10px; 
+    }
 
 .tarefas, .subtarefas{
     list-style: none;
     position: relative;
+}
+
+.checked{
+    text-decoration: line-through;
 }
 
 /* .tarefas__adicionar, .tarefas__deletar, .subtarefas__deletar */
@@ -328,4 +336,6 @@ h1{
     border-style: none;
     border-radius: 3px;
 }
+
+
 
