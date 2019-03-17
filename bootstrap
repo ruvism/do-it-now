@@ -1,0 +1,8 @@
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Cadastre-se</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Entre</a>
+  </li>
+</ul>

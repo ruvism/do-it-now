@@ -17,33 +17,80 @@ a:link{
 text-decoration:none; 
 } 
 
+.titles{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
 /* Página abertura */
 
-.elementos{
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-    padding: 50px;
-    margin: 0 auto;
+.botoes-principais{
     text-align: center;
-    margin-top: 60px;
+    text-transform: uppercase;
+    height: 50vh;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    font-size: 16px;
+    background-color: white;
 }
 
-#seta{
+.apresentacao{
+    width: 80%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
-.id__visual{
-    width: 50px;
-    padding: 50px;
-}
 
-.botoes-index{
+.nav-pills{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    height: 40px;
+
+}
+.secao-como-funciona{
+    background-color: gray;
     padding: 30px;
-    margin-top: 20px;
+
 }
+
+.como-funciona{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.icones-funcionamento{
+    padding: 20px;
+}
+
+.secao-depoimentos{
+    background-color: white;
+    padding: 30px;
+}
+.depoimentos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.rounded-circle{
+    padding: 20px;
+}
+
+.bg-light{
+    background-color: #848181;
+}
+
 
 /* Página cadastro */
 
@@ -75,11 +122,11 @@ text-decoration:none;
     top: 10px;
 }
 
-h1{
+/* h1{
     color: #45341A;
     font-size: 24px;
     font-family: sans-serif;
-}
+} */
 
 
 .form__cadastro, .form__login{
@@ -125,217 +172,4 @@ h1{
     justify-content: center;
     position: relative;
 }
-
-/* Listas */
-
-.borda-interna{
-    border-color: aqua;
-}
-
-.header{
-    background-color: #574436;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 100%;
-}
-
-.header__usuario{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
-    margin: 20px auto;
-    color: #F8EB94;   
-}
-
-.header__nome{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
-    margin: 20px auto;
-    color: #F8EB94;
-    
-}
-
-.header__logo{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: relative;
-    margin: 15px auto; 
-}
-
-.listas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    width: 500px;
-    padding-top: 100px;
-    position: relative;
-}
-
-.lista__nova{
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    padding-top: 110px; 
-}
-
-.listas__linhas{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    margin: 0 auto;
-    width: 500px;
-    padding-top: 120px; 
-    list-style: none;
-    padding: 1px 5px;
-    border-color: aqua;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 2px;
-    position: absolut;
-}
-
-.inicio{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.final{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-#lista__icone, #lista__deletar, #lista__editar, .avatar{
-    padding-right: 6px;
-}
-
-.linha__1, .linha__2, .linha__3{
-    display: flex;
-    flex-direction: row;
-    align-items: initial;
-    justify-content: baseline;
-    padding-top: 10px; 
-    }
-
-.tarefas, .subtarefas{
-    list-style: none;
-    position: relative;
-}
-
-.checked{
-    text-decoration: line-through;
-}
-
-/* .tarefas__adicionar, .tarefas__deletar, .subtarefas__deletar */
-
-/* .tarefas__adicionar{
-    display: flex;
-    justify-content: flex-end;
-    
-}
-
-.tarefas__deletar{
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-}
-
-.subtarefas__deletar{
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-} */
-
-/* Criar listas */
-
-.listas__criar{
-    height: 200px;
-    width: 500px;
-    position: relative;
-}
-
-.listas__nova{
-    padding-top: 2px;
-    position: absolute;
-}
-
-.listas__prontas{
-    padding-top: 300px;
-}
-
-.listas__nome, .listas__adicionar-tarefa{
-    width: 490px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-color: #EA7932;
-    border-style: solid;
-    border-radius: 4px;
-    border-width: 0.5px;
-    padding-top: 5px;
-    padding-bottom: 5px; 
-    color: #45341A;
-}
-
-.tarefas__input__adicionar, .subtarefas__input__adicionar{
-    width: 400px;
-    color: #45341A;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-color: #EA7932;
-    border-style: solid;
-    border-radius: 4px;
-    border-width: 0.5px;
-    padding-top: 10px;
-    padding-bottom: 10px; 
-    padding-left: 10px;
-    margin: 5px;
-}
-/* Não alterar esse */
-.criar__tarefas{
-    position: absolute;
-    top: 30px; 
-    right: 5px;
-    z-index: auto;
-}
-
-.listas__botoes{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;  
-    padding: 2px;  
-}
-
-.listas__btn-criar{
-    background-color: 	#EA7932;
-    color: white;
-    padding: 10px 30px;
-    margin-right: 10 px;
-    margin-top: 10px;
-    border-radius: 3px;
-    border-style: none;
-    text-align: center;   
-}
-
-.listas__btn-cancelar{
-    background-color: 	#D1CF3D;
-    color:#45341A;
-    padding: 10px 30px;
-    margin-right: 10px;
-    margin-top: 10px;
-    border-style: none;
-    border-radius: 3px;
-}
-
-
 
