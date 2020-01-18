@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>refuBicos</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Coiny|Monteserrat" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="tela-login">
+    <section>
+        <div class="nav-pills">
+            <h3 class="refubicos">refuBicos</h3>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="home-refug.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login-refug.html">Entre</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cadastro-refug">
+        <form class="cadastro-refug">
+            <h1 class="titulo-branco">Cadastre-se para receber propostas de bicos</h1>
+            <div>
+                <div class="form-group">
+                    <label for="inputEmail4">Nome completo</label>
+                    <input type="text" class="form-control" id="nome-cadastro-refug" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4">Registro Nacional de Estrangeiro</label>
+                    <input type="number" class="form-control" id="rne-cadastro-refug" placeholder="RNE">
+                </div>
+                <div class="form-group">
+                    <label for="inputCity">Pais de origem</label>
+                    <input type="text" class="form-control" id="pais-cadastro-refug">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4">CPF</label>
+                    <input type="number" class="form-control" id="cpf-cadastro-refug" placeholder="CPF">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4">E-mail</label>
+                    <input type="email" class="form-control" id="email-cadastro-refug" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword4">Senha</label>
+                    <input type="password" class="form-control" id="senha-cadastro-refug" placeholder="Senha">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword4">Confirme sua senha</label>
+                    <input type="password" class="form-control" id="senha-cadastro-refug" placeholder="Senha">
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputAddress">Endereço</label>
+                <input type="text" class="form-control" id="endereco-cadastro-refug"
+                    placeholder="Rua, avenida, etc, e número">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Cidade</label>
+                    <input type="text" class="form-control" id="cidade-cadastro-refug">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Estado</label>
+                    <select id="estado-cadastro-refug" class="form-control">
+                        <option selected>Selecione</option>
+                        <option>SP</option>
+                        <option>RJ</option>
+                        <option>MG</option>
+                        <option>ES</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">CEP</label>
+                    <input type="text" class="form-control" id="cep-cadastro-refug">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="botao-cadastro-refug">Finalizar cadastro</button>
+        </form>
+
+
+    </section>
+
+
+    <nav class="navbar navbar-light bg-light footer">
+        <h3>refuBicos</h3>
+        <a class="navbar-brand" href="#">Início</a>
+        <a class="navbar-brand" href="#">Funcionalidades</a>
+        <a class="navbar-brand" href="#">FAQ</a>
+        <a class="navbar-brand" href="#">Termos e condições</a>
+        <a class="navbar-brand" href="#">Contrate</a>
+        <a class="navbar-brand" href="#">Seja contratado</a>
+
+
+    </nav>
+
+    <script src="scripts/cadastro-refug.js"></script>
+
+</body>
+
+</html>
